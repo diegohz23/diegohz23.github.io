@@ -1,60 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi página personal</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi página personal</title>
+
+  <style>
+    /* ===== Estilos generales ===== */
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(180deg, #f7f7f7, #e9f0ff);
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: #fffbf2;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    h1 {
+      color: #d32f2f;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #1976d2;
+      font-size: 1.5rem;
+      margin-top: 10px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-top: 15px;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      border-radius: 20px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+      max-width: 60%;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h3 {
+      color: #4a148c;
+      margin-top: 0;
+    }
+
+    ul {
+      margin-left: 25px;
+      line-height: 1.8;
+    }
+
+    footer {
+      text-align: center;
+      background: #1976d2;
+      color: white;
+      padding: 20px 10px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #ffeb3b;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    input {
+      padding: 8px 12px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      margin-right: 10px;
+      margin-top: 15px;
+    }
+
+    button {
+      background: #d32f2f;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #b71c1c;
+    }
+  </style>
 </head>
-<header>
-  <h1 style="color:red">Bienvenido a mi página personal</h1> 
-  <img 
-       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGKKwCOyRf_-IewRwYzQGdh-2Tl8kxjFBtu4N6xzx8_6Sa4O7fp1Z_krKDJ-GwQKCXUrA&usqp=CAU
-       width="50%"
-       style="display:block; margin: 20px auto; border-radius:15px; box-shadow:0 4px 10px rgba(0,0,0,0.3);">
-</header>
-
-
 <body>
-    <header>
-        <h1 style="color: red">Bienvenido a mi página personal</h1>
-        <h2 style="color: blue "> Soy Diego Sanchez Hernandez - Backend Developer</h2>
-        <p>Soy fan de la cerveza JAJAJJ me gustan mucho los carro GTI y mi sueño es tener uno 2024</p> 
-    </header>
-    <main>  
-        <section>
-            <hr>
-            <h3>Curiosidades sobre mí</h3>
-            <ul>
-                <li>Vivo en Velazco</li>
-                <li>Estudiante de TICS</li>
-                <li>Le voy al cruz azul</li>
-            </ul>
-        </section>
-         <section>
-            <hr>
-            <h3>Mis bebidas favoritas</h3>
-            <ul>
-                <li>Cerveza</li>
-                <li>Coca</li>
-                <li>Agua</li>
-            </ul>
-        </section>
-        <section>
-            <h3>Habilidades</h3>
-            <ul>
-                <li>Bebedor</li>
-                <li>Ingeniero</li>
-                <li>Perdedor en la vida</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <hr>
-        <p>Visita mi <a href="https://www.instagram.com/diegxshx?igsh=MTZrYmh6OW9xYjFkaw==">instagram</a></p>
-        <input type="text" placeholder="Email">
-        <button>Suscríbete!</button>
-    </footer>
-</body>
 
+  <header>
+    <h1>Bienvenido a mi página personal</h1>
+
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGKKwCOyRf_-IewRwYzQGdh-2Tl8kxjFBtu4N6xzx8_6Sa4O7fp1Z_krKDJ-GwQKCXUrA&usqp=CAU"
+      alt="Imagen chida">
+
+    <h2>Soy Diego Sanchez Hernandez - Backend Developer</h2>
+    <p>Soy fan de la cerveza 🍺, me gustan los carros GTI y mi sueño es tener uno 2024 🚗.</p>
+  </header>
+
+  <main>
+    <section>
+      <h3>Curiosidades sobre mí</h3>
+      <ul>
+        <li>Vivo en Velazco</li>
+        <li>Estudiante de TICS</li>
+        <li>Le voy al Cruz Azul</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Mis bebidas favoritas</h3>
+      <ul>
+        <li>Cerveza</li>
+        <li>Coca</li>
+        <li>Agua</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Habilidades</h3>
+      <ul>
+        <li>Bebedor</li>
+        <li>Ingeniero</li>
+        <li>Perdedor en la vida (pero con estilo 😎)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Visita mi <a href="https://www.instagram.com/diegxshx?igsh=MTZrYmh6OW9xYjFkaw==">Instagram</a></p>
+    <input type="text" placeholder="Tu email">
+    <button>¡Suscríbete!</button>
+  </footer>
+
+</body>
 </html>
