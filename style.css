@@ -3,12 +3,12 @@ body {
     margin: 0;
     padding: 0;
 
-    /* Fondo estilo cerveza */
+    
     background: linear-gradient(180deg, #8B4513 0%, #D2691E 40%, #FFD700 100%);
     color: #222;
 }
 
-/* HEADER */
+
 header {
     width: 100%;
     height: 550px;
@@ -19,7 +19,7 @@ header {
     position: relative;
 }
 
-/* Efecto espuma arriba */
+
 header::before {
     content: "";
     position: absolute;
@@ -49,7 +49,6 @@ header img {
     text-align: center;
 }
 
-/* MAIN */
 main {
     width: 80%;
     margin: 40px auto;
@@ -62,7 +61,7 @@ main {
     border-radius: 15px;
 }
 
-/* TARJETAS */
+
 section {
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     padding: 20px;
@@ -90,7 +89,7 @@ section img {
     margin-bottom: 15px;
 }
 
-/* FOOTER */
+
 footer {
     background-color: #f4f4f4;
     padding: 20px;
